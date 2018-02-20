@@ -18,15 +18,14 @@ public class Multiplication {
 	}
 	public static int multiply(int num1, int num2) {
 		while(num2>0) {
-			if(!isDivisibleBy2(num2)) {
+			if(!isDivisibleBy2(num2))
 				lst.add(num1);
-			}
 			num1 = 2*num1;
 			num2 = num2/2;	
 		}
-		return addNum1InList();
+		return sumOfItemsInList();
 	}
-	public static int addNum1InList() {
+	public static int sumOfItemsInList() {
 		int ans = 0;
 		for(Integer item:lst) {
 			ans +=item;
