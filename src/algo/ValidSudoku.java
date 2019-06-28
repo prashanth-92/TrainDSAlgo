@@ -71,7 +71,7 @@ public class ValidSudoku {
         System.out.println(vs.isSudokuValid(board));
     }
 
-    public boolean isSudokuValid(char[][] board) throws NumberFormatException{
+    private boolean isSudokuValid(char[][] board) throws NumberFormatException{
         if(!isAllRowsValid(board)){
             return false;
         }
