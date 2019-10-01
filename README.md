@@ -1,3 +1,4 @@
 # TrainDSAlgo
 
+Algorithm
 DS Algorithms
