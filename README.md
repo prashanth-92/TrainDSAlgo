@@ -1,4 +1,5 @@
 # TrainDSAlgo
 
-DS Algorithm
+Algorithm
+DS Algorithms
  alpha beta 
